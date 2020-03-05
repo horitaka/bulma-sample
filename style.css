@@ -1,0 +1,107 @@
+.html {
+  width: 100%;
+}
+
+.body {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* .button-container--outer {
+  background: blue;
+  display: flex;
+  justify-content: center;
+  flex: 1 1 100%;
+} */
+
+.button-container--inner {
+  /* background: red; */
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+@media screen and (max-width:768px) {
+  .button-container--inner {
+    /* background: red; */
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+
+.wide-button {
+  flex: 0 0 20%;
+  max-width: 20%;
+  min-width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media screen and (max-width:768px) {
+  .wide-button {
+    flex: 1 0 40%;
+    max-width: 40%;
+    min-width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.button-container--inner2 {
+  /* background: red; */
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: flex-end;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0;
+}
+@media screen and (max-width:768px) {
+  .button-container--inner2 {
+    /* background: red; */
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.wide-button2 {
+  /* background: yellow; */
+
+  flex: 0 0 20%;
+  max-width: 15%;
+  min-width: 15%;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  margin-left: 5%;
+  margin-right: 10%;
+  /* border-radius: 15px; */
+}
+@media screen and (max-width:768px) {
+  .wide-button2 {
+    flex: 1 0 25%;
+    max-width: 25%;
+    min-width: 25%;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    margin-left: 5%;
+    margin-right: 12%;
+    /* border-radius: 15px; */
+  }
+}
